@@ -1,0 +1,38 @@
+COMO TROCAR AS FOTOS PROVISÓRIAS
+================================
+
+Os arquivos .svg desta pasta são provisórios. Para trocar:
+1. Coloque a foto real aqui (ex.: hero-rosto.jpg).
+2. No index.html, troque o caminho correspondente (ex.: imagens/hero-rosto.svg → imagens/hero-rosto.jpg).
+   Cada imagem tem um comentário "TROCAR FOTO" logo acima no index.html.
+
+Dica: use .jpg ou .webp com até ~300 KB por foto (o hero pode ter até ~500 KB).
+
+ARQUIVO                      ONDE APARECE                         FORMATO SUGERIDO
+hero-limpeza-de-pele-mobile.jpg  Banner (celular/tablet; no computador até chegar o banner)  4:5, 960×1200
+hero-limpeza-de-pele-banner.jpg  Banner no computador (FALTA ENVIAR)  2400×1350, área lisa à esquerda
+hero-tratamento              Miniatura do card "Novidade"         quadrado, 200×200
+depoimento-mini              Miniatura do card de depoimento      quadrado, 200×200
+cat-corpo                    Card ( corpo )                       quadrado, 600×600
+cat-rosto                    Card ( rosto )                       quadrado, 600×600
+cat-ozonio                   Card ( ozonioterapia )               quadrado, 600×600
+cat-bemestar                 Card ( bem-estar )                   quadrado, 600×600
+maca-skin-booster-recorte.png  Foto sobre "Dona Beleza" gigante   PNG com FUNDO TRANSPARENTE (já é a foto real)
+grade-vertical-1 / -2        Grade de fotos (duas verticais)      retrato, 600×900
+grade-horizontal             Grade de fotos (foto menor)          paisagem, 900×560
+procedimento-1/2/3-*.jpg      Fotos sobre a palavra "você"         já são fotos reais
+dra-ivane                    Sobre a Dra. Ivane Carvalho          retrato, 800×1000
+depoimento-1 / -2 / -3       Foto das clientes nos depoimentos    quadrado, 96×96 ou maior
+logo.png                     Logo oficial (menu, rodapé e ícone da aba)   já é o arquivo real
+
+RESULTADOS (antes e depois) — pasta imagens/resultados/
+Cada caso tem 3 arquivos: nome-antes.jpg, nome-depois.jpg e nome-antes-depois.jpg.
+Os casos exibidos ficam na lista CASOS_RESULTADOS no topo do js/main.js.
+Para trocar um caso, mude o "arquivo" ali (ex.: "labios" → "labios-frontal").
+Casos na pasta: labios, labios-frontal, labios-perfil (só antes), contorno-facial,
+rosto-perfil, abdomen, braco, costas.
+
+FOTOS REAIS JÁ COLOCADAS
+dra-ivane.jpg, grade-vertical-1.jpg, sala-atendimento.jpg e grade-horizontal.jpg
+já são fotos reais. Na pasta extras/ ficam as versões repetidas em outro formato
+(labios-pescoco-vertical.jpg, maca-horizontal.jpg e maca-vertical.jpg), caso queira trocar.
